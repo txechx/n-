@@ -1,0 +1,56 @@
+body {
+  font-family: '맑은 고딕', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#magicSquareContainer {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px solid #888;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.sum-label {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#newButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
