@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>N차 마방진 시뮬레이터</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 입력 모달 -->
+  <div id="inputModal" class="modal">
+    <div class="modal-content">
+      <label>마방진의 차수를 입력하세요 (홀수만):</label>
+      <input type="number" id="orderInput" min="3" step="2">
+      <button onclick="startSimulation()">시작</button>
+    </div>
+  </div>
+
+  <!-- 상단 New 버튼 -->
+  <button id="newButton" onclick="resetPage()">New</button>
+
+  <!-- 마방진 표시 영역 -->
+  <div id="magicSquareContainer"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
